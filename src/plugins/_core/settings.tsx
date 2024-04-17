@@ -49,7 +49,6 @@ export default definePlugin({
                     case "aboveNitro": return /\{section:(\i\.\i)\.HEADER,\s*label:(\i)\.\i\.Messages\.BILLING_SETTINGS/;
                     case "belowNitro": return /\{section:(\i\.\i)\.HEADER,\s*label:(\i)\.\i\.Messages\.APP_SETTINGS/;
                     case "belowActivity": return /(?<=\{section:(\i\.\i)\.DIVIDER},)\{section:"changelog"/;
-                    case "belowActivity": return /(?<=\{section:(\i\.\i)\.DIVIDER},)\{section:"changelog"/;
                     case "bottom": return /\{section:(\i\.\i)\.CUSTOM,\s*element:.+?}/;
                     case "aboveActivity":
                     default:
